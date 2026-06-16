@@ -1,2 +1,9 @@
 # homebrew-tap
-Homebrew tap for LibertAI CLI
+
+Homebrew tap for the LibertAI CLI.
+
+Install:
+
+```sh
+brew install Libertai/tap/libertai
+```
