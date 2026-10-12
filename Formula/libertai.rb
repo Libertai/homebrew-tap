@@ -1,17 +1,17 @@
 class Libertai < Formula
   desc "LibertAI CLI — inference, image generation, and agent-tool launchers"
   homepage "https://github.com/Libertai/libertai-cli"
-  version "0.5.0"
+  version "0.6.0"
   license "MIT"
 
   on_arm do
-    url "https://github.com/Libertai/libertai-cli/releases/download/v0.5.0/libertai-macos-aarch64"
-    sha256 "d9304b100b8e30be4acdc4a7f1910b16f8814fc8ff15c32995b530696665b026"
+    url "https://github.com/Libertai/libertai-cli/releases/download/v0.6.0/libertai-macos-aarch64"
+    sha256 "d4e2479a5a90e199726c054d1efc54d25dc04ee6621e0e11d99d11da7c981bb8"
   end
 
   on_intel do
-    url "https://github.com/Libertai/libertai-cli/releases/download/v0.5.0/libertai-macos-x86_64"
-    sha256 "2fddbf0fb68b01c123a8e158c7835b5cc8ea76c16072259aeab651a23f6723e6"
+    url "https://github.com/Libertai/libertai-cli/releases/download/v0.6.0/libertai-macos-x86_64"
+    sha256 "1207890b98e0d70af90713b29886b1ed6bf5560a5abf98ab7bf01e5ec62028f9"
   end
 
   def install
