@@ -6,12 +6,12 @@ class Libertai < Formula
 
   on_arm do
     url "https://github.com/Libertai/libertai-cli/releases/download/v0.6.0/libertai-macos-aarch64"
-    sha256 "46dab277b7e0921a54e43b9a7129a3aa1ae84c129f2f9789738d5519d3093f5e"
+    sha256 "ea9e9bfeb57ba0ed6d79cea860673545edd2ffe274344ffe7f300a3da7264fb0"
   end
 
   on_intel do
     url "https://github.com/Libertai/libertai-cli/releases/download/v0.6.0/libertai-macos-x86_64"
-    sha256 "9e369180253d0fba8aa22e59110ab21ffb737f1f458b73ab22fc4b019a44106b"
+    sha256 "21375c12ddbd23f659c6e7522ea7351443350290a30b2f95c5e6c5d33e725178"
   end
 
   def install
